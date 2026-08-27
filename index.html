@@ -149,22 +149,30 @@
         </section>
 
 
-        <section id="contact">
-            <h2>Contact Me</h2>
+       <section id="contact">
+    <h2>Contact Me</h2>
 
-            <form>
-                <label>Name:</label>
-                <input type="text" placeholder="John Doe" required>
+    <form>
+        <label>Name:</label>
+        <input type="text"
+               placeholder="John Doe"
+               maxlength="25"
+               required>
 
-                <label>Email:</label>
-                <input type="email" placeholder="johndoe@email.com" required>
+        <label>Email:</label>
+        <input type="email"
+               placeholder="johndoe@email.com"
+               maxlength="25"
+               required>
 
-                <label>Message:</label>
-                <textarea placeholder="Enter your message here." required></textarea>
+        <label>Message:</label>
+        <textarea placeholder="Enter your message here."
+                  maxlength="255"
+                  required></textarea>
 
-                <button type="submit">Contact Me</button>
-            </form>
-        </section>
+        <button type="submit">Contact Me</button>
+    </form>
+</section>
 
     </main>
 
